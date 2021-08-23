@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      a:link,
+      a:visited {
+        color: #000;
+        text-decoration: none;
+      }
+      a:active,
+      a:hover {
+        color: #333;
+      }
+      h1 {
+        text-align: center;
+        margin: 0;
+        padding: 1rem;
+      }
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      aside {
+        background: green;
+      }
+      aside li {
+        padding: 0 0 1rem 1rem;
+      }
+      main {
+        background: blue;
+      }
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <h1>Technical Documentation</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Introduction</a></li>
+            <li><a href="#">Getting Started</a></li>
+            <li><a href="#">Intermediate Operations</a></li>
+            <li><a href="#">Advanced Tactics</a></li>
+            <li><a href="#">Finding Assistance</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main id="main-doc">main</main>
+    </div>
+  </body>
+</html>
+
+<!-- TODO / Stories
+    - Within #main-doc there are at least 5 .main-section <section>s
+    - The first element within each .main-section should be a <header> containing a heading
+    - Each .main-section should also have an id that matches the heading (replace spaces with underscores)
+    - The .main-section elements should contain at least 10 <p>s overall.
+    - The .main-section elements should contain at least 5 <code> elements overall.
+    - The .main-section elements should contain at least 5 <li> elements overall.
+    - There should be a nav element with the id "navbar"
+    - The navbar element should contain one <header> which contains a heading for the page.
+    - The navbar should contain a link for each .main-section and the link text should match the section's header
+    - When clicking a link in the navbar, the page should navigate to the appropriate section.
+    - On larger (non-mobile) screens the navbar should be shown on the left side of the screen and always be visible.
+    - The page should have at least one media query.
+ -->
