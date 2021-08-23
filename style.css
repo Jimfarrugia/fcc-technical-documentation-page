@@ -20,7 +20,7 @@ h1 {
 }
 h2 {
   margin: 0;
-  padding: 1rem;
+  padding: 0;
 }
 ul,
 li {
@@ -30,14 +30,33 @@ li {
 }
 aside {
   background: green;
+  text-align: center;
 }
 aside li {
-  padding: 0 0 1rem 1rem;
+  padding: 0 0 1rem 0;
 }
 main {
   background: blue;
 }
+footer {
+  background: gold;
+  padding: 1rem;
+  line-height: 1.35;
+}
 .container {
   max-width: 960px;
   margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+.main-section {
+  padding: 1rem;
+}
+.main-section li {
+  list-style-type: disc;
+  margin-bottom: 1rem;
+}
+.main-section li:last-child {
+  margin-bottom: 0;
 }
